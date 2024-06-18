@@ -1,0 +1,53 @@
+@media only screen and (min-width: 600px) {
+    
+    *{
+     margin: 0;
+    padding: 0;
+        }
+    
+    body {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        height: 100vh;
+        
+    
+    }
+    
+    #prueba1{
+    display: none;
+    }
+    #prueba3{
+    display: none;
+    }
+    #prueba2{
+        position: absolute;
+        bottom: 96vh;
+        left: 50vw;
+    } 
+
+    article{
+        width: 100vw;
+    }
+
+    div{
+        display: flex;
+        align-content: center;
+        flex-direction: column-reverse;
+         
+    }
+     
+    
+    #box1{
+        background-color: rgb(127, 3, 3);
+    }
+    
+    #box2{
+        background-color: rgba(229, 40, 68, 0.956);
+    }
+    
+    #box3{
+        background-color: rgb(255, 147, 165);
+    }
+    }

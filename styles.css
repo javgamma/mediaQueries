@@ -1,0 +1,36 @@
+
+@media only screen and (max-width: 600px) {
+
+*{
+ margin: 0;
+padding: 0;
+    }
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#prueba1{
+display: none;
+}
+#prueba2{
+display: none;
+}
+ 
+
+
+#box1{
+    background-color: rgb(5, 5, 151);
+}
+
+#box2{
+    background-color: rgba(65, 65, 213, 0.956);
+}
+
+#box3{
+    background-color: rgb(147, 212, 255);
+}
+}
